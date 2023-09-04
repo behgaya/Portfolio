@@ -1,0 +1,101 @@
+.section-main{
+    position: relative;
+    width: 100vw;
+    display: flex;
+    z-index: unset;
+}
+
+.section-main__wrapper{
+    position: relative;     
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+}
+
+.section-main__figure{
+    position: static; 
+    width: 50%;
+    z-index: 5;
+}
+
+.section-main__presentation{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: justify;
+    text-justify: inter-word;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10vw;
+}
+
+.section-main__greetings{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    gap: 1vw;
+    width: 100%;
+}
+
+.section-main__image{
+    width: auto;
+
+}
+
+.section-main__text--size--medium{
+    font-size: clamp(1rem, 2vw, 2rem); 
+}
+
+.section-main__text--size--extrasmall{
+    font-size: clamp(1rem, 1vw, 2rem); 
+}
+
+.section-main__text--size--extralarge{
+    font-size: clamp(4rem, 4vw, 5rem); 
+}
+
+.section-main__text--weight--bold{
+    font-weight: 700;
+}
+
+.section-main__link-list{
+    display: flex;
+    gap: 2vw;
+    margin: 0;
+}
+
+.section-main__button{
+    background-color: rgb(218, 160, 0);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: clamp(1rem, 1vw, 2rem); 
+    width: auto;
+}
+
+.section-main__text{
+    display: none;
+}
+
+.section-main__button:hover{
+    padding: 0 1vw 0 0;
+}
+
+.section-main__button:hover .section-main__text{
+    display: block;
+
+}
+
+.section-main__icon{
+    padding: 1vw;
+    color: white;
+}
+
+.section-main__link-redirecters{
+    display: flex;
+    flex-direction: column;
+    gap:2vw;
+}

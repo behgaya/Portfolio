@@ -27,6 +27,12 @@ header, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	background-color: black;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap:10vw;
+    margin: 0;  
 }
 
 ol, ul {
@@ -55,4 +61,8 @@ a {
   
 * {
 	box-sizing: border-box;
+}
+
+html, body { 
+    scroll-behavior: smooth
 }

@@ -1,0 +1,24 @@
+.education-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2vw;
+    width: 30%
+}
+
+.education-list__date{
+    display:flex;
+    flex-direction: row;
+    gap: 0.5vw;
+
+}
+
+.education-list__subject{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    color: rgb(218, 160, 0);
+    padding: 0.5vw;
+    background-color: rgb(36,36,36);
+}

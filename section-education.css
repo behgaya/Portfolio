@@ -1,0 +1,25 @@
+.section-education{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vw;
+}
+
+.section-education__title{
+    width: 90%;
+}
+
+.section-education__wrapper{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    gap: 7vw;
+}
+
+.section-education__button{
+    width: 90%;
+    display:flex;
+    flex-direction:row-reverse;
+}

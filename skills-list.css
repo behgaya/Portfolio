@@ -1,0 +1,37 @@
+
+.skills-list{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(9vw, 1fr));
+    align-items: start;
+    grid-gap: 3vw;
+}
+
+.skills-list__item {
+
+    flex-direction: column;
+    gap: 1vw;
+    filter: grayscale(100%);
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+}
+
+.skills-list__item:hover{
+    filter: grayscale(0%);
+    cursor: pointer;
+}
+
+.skills-list__image{
+    width: 50%;
+}
+
+.skills-list__rating{
+    display:flex;
+    flex-direction:row;
+    gap:0.3vw;
+}
+
+.skills-list__star{
+    color: #ffff00;
+}
